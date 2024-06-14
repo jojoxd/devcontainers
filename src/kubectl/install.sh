@@ -1,8 +1,9 @@
+#!/usr/bin/env sh
 set -e
 
 . ./library_scripts.sh
 
-if [ "x$VERSION" == "xlatest" ] || [ "x$VERSION" == "xstable" ]; then
+if [ "$VERSION" = "latest" ] || [ "$VERSION" = "stable" ]; then
     clean_download "https://cdn.dl.k8s.io/release/$VERSION.txt" kubectl_version
 
     VERSION=$(cat kubectl_version)

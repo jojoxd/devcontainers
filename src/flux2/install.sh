@@ -15,7 +15,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.23" \
-    --option repo='fluxcd/flux2' --option binaryNames='flux' --option version="$VERSION" --option assetRegex='^(?!.*(checksum).*)$'
+    --option repo='fluxcd/flux2' --option binaryNames='flux' --option version="$VERSION" --option assetRegex='^flux_(.*)\.tar\.gz$'
     
 
 

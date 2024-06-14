@@ -1,7 +1,7 @@
 {
     "name": "kubectl (via official release channel)",
     "id": "kubectl",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Manage kubernetes using kubectl.",
     "options": {
         "version": {

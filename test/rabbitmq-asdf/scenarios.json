@@ -1,8 +1,0 @@
-{
-    "test": {
-        "image": "debian:bullseye",
-        "features": {
-            "rabbitmq-asdf": {}
-        }
-    }
-}

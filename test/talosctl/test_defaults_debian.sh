@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "talosctl client --version" talosctl client --version
+check "talosctl version" talosctl version
 
 reportResults

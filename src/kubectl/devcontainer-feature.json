@@ -1,0 +1,25 @@
+{
+    "name": "kubectl (via official release channel)",
+    "id": "kubectl",
+    "version": "1.0.0",
+    "description": "Manage kubernetes using kubectl.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "stable"
+            ],
+            "default": "stable",
+            "description": "Select the version to install."
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-kubernetes-tools.vscode-kubernetes-tools"
+            ]
+        }
+    },
+    "installsAfter": []
+}
